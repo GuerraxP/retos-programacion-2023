@@ -22,17 +22,21 @@ def expreMate(expre:str):
 
     encExpMat = re.match(regen,expre)
     
-    encntExpMat = re.fullmatch(regen,expre)
+    #encntExpMat = re.fullmatch(regen,expre)
     #encntExpMat1 = re.fullmatch(regen1,expre)
-    encntExpMat2 = re.search(regen,expre)
+    #encntExpMat2 = re.search(regen,expre)
     #encntExpMat3 = re.search(regen1,expre)
  
     print ("encntExpMat=",encntExpMat)
     #print ("encntExpMat1",encntExpMat1)
-    print ("encntExpMat2",encntExpMat2)
+    #print ("encntExpMat2",encntExpMat2)
     #print ("encntExpMat3",encntExpMat3)
 
-    if encExpMat != None or encntExpMat2 !=None:
+    #if encExpMat != None or encntExpMat2 !=None:
+        #return True
+    #else:
+        #return False
+    if encExpMat != None:
         return True
     else:
         return False
